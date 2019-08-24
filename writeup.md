@@ -39,6 +39,8 @@ One potential shortcoming would be what would happen when there is no line detec
 
 
 
+
+
 ### 3. Suggest possible improvements to your pipeline
 
-When no lines are detected, it would be possible to average the lines from the frame before and after.
+It's pretty shaky right now, I would need to find a way to smooth it out. Also, I didnt find better parameters for the Canny, so i do not know if there is a way to do it better.
